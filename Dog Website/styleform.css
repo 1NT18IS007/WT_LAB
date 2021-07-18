@@ -1,0 +1,11 @@
+body{
+    background-image: url("20.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    font-size:medium;
+    color:burlywood;
+    font-weight: bolder;
+}
