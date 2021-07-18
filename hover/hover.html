@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.square {
+
+	height: 500px;
+  	width: 500px;
+  	padding: 50px;
+  	background-color: blue;
+}
+
+.squar{
+	height: 400px;
+  	width: 400px;
+    padding: 40px;
+  	background-color: yellow;
+}
+
+.squa{
+	height: 300px;
+  	width: 300px;
+  	padding: 20px;
+  	background-color: orange;
+}
+.squ{
+	height: 100px;
+  	width: 100px;
+  	padding: 30px;
+  	background-color: red;
+}
+</style>
+</head>
+<body>
+
+
+<div class="square" id="b1">
+	<div class="squar"id="b2">
+	<div class="squa"id="b3">
+	<div class="squ"id="b4">
+	</div>
+	</div>
+</div></div>
+
+</body>
+<script>
+	const b1=document.getElementById("b1");
+	const b2=document.getElementById("b2");
+	const b3=document.getElementById("b3");
+	const b4=document.getElementById("b4");
+	let flag=false;
+
+	b1.addEventListener('mouseenter',()=>{
+		console.log("entered blue area");
+	});
+	b2.addEventListener('mouseenter',()=>{
+		console.log("entered yellow area");
+	});
+	b3.addEventListener('mouseenter',()=>{
+		console.log("entered orange area");
+	});
+	b4.addEventListener('mouseenter',()=>{
+		console.log("entered red area");
+	});
+</script>
+</html>
